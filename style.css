@@ -1,5 +1,109 @@
 /* style.css */
 
-.page-container{
+page-container {
     display: grid;
+    grid-template-columns: 162px 2fr;
+}
+
+body {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+} 
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    height: 500px;
+    grid-column: span 3;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-column: span 1;
+}
+
+.footer,.text {
+    color: white;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.heading {
+    color: #f9faf8;
+    font-size: 48px;
+    margin-top: 46px;
+
+}
+
+ul, .text {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 16px;
+    width: 130px;
+    font-size: 20px;
+    margin-top: 26px;   
+}
+
+.img {
+    border: 1px solid #000;
+   width: 50px;
+   height: 100px;
+   margin: 10px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contain {
+    object-fit: contain;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1em;
+    margin: 1em 0 0.3em;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    gap: 16px;
+    margin-right: 46px;
+    text-decoration: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    margin-top: 20px;
+    margin-left: 46px;   
 }
